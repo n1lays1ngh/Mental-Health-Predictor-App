@@ -271,3 +271,61 @@ st.markdown("""
   <li><b>Mood Swings, Days Indoors, Social Weakness, Changes in Habits, Work Interest</b> show very weak or no meaningful association with treatment-seeking behavior.</li>
 </ul>
 """, unsafe_allow_html=True)
+
+st.divider()
+
+##CONCLUSION 
+
+st.markdown("""
+<h3>Conclusion</h3>
+<p>
+This interactive dashboard presents key insights from an exploratory data analysis (EDA) on the Mental Health in Tech Survey dataset.
+It includes:
+</p>
+<ul>
+  <li>Cleaning and preprocessing steps</li>
+  <li>Univariate and bivariate visualizations</li>
+  <li>Statistical associations between features and mental health treatment-seeking behavior</li>
+</ul>
+
+<p>Use this analysis to better understand the dataset before diving into predictive modeling.</p>
+""", unsafe_allow_html=True)
+
+st.markdown("<br>",unsafe_allow_html=True)
+
+st.write("For further exploration of the project, please refer to the links below: ")
+st.page_link("pages/Model_Analysis.py", label=" Model Analysis ", icon = "📊")
+
+st.page_link("pages/Mental_Health_Prediction_App.py",label = "Mental Health Prediction App",icon = "🔮")
+
+
+
+### SIDEBAR ###
+
+st.sidebar.title("EDA Dashboard ")
+st.sidebar.subheader("Sections")
+
+with st.sidebar.expander("Dataset Preview"):
+    st.write("- Original Dataset")
+    st.write("- Cleaned Dataset")
+
+with st.sidebar.expander("Dataset Cleaning"):
+    st.markdown("- Handling Missing Values")
+    st.markdown("- Duplicate Entries")
+
+with st.sidebar.expander("Feature Engineering"):
+    st.markdown("- Country to Continent Conversion")
+    st.markdown("- Occupation to Occupation Category")
+
+with st.sidebar.expander("Univariate Analysis"):
+    st.markdown("- Visualization")
+    st.markdown("- Interpretation")
+
+with st.sidebar.expander("Bivariate Analysis"):
+    st.markdown("- Comparision with Treatment")
+    st.markdown("- Statistical Association Analysis")
+    st.markdown("- Key Findings from the Bivariate Analysis")
+
+with st.sidebar.expander("Conclusion"):
+    st.markdown("- Links ")
+    
