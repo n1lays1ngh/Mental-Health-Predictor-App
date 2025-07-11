@@ -21,15 +21,12 @@
 
 
 import streamlit as st
-from utils import load_model
+
 from pathlib import Path
 
 # Page config
 st.set_page_config(page_title="Mental Health Predictor", layout="wide", page_icon="🧠")
 
-# Load model (for future use or validation)
-model_path = Path("/Users/nilaysingh/Desktop/Mental-Health-Predictor-App/models/Mental_Health_Prediction_model.cbm")
-model = load_model(model_path)
 
 # Title section
 st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>🧠 Mental Health Predictor App</h1>", unsafe_allow_html=True)
