@@ -27,6 +27,9 @@ from pathlib import Path
 # Page config
 st.set_page_config(page_title="Mental Health Predictor", layout="wide", page_icon="🧠",initial_sidebar_state="expanded")
 
+with st.sidebar:
+    st.markdown("## 🧭 Navigation")
+    st.markdown("Welcome to the Mental Health App!")
 
 # Title section
 st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>🧠 Mental Health Predictor App</h1>", unsafe_allow_html=True)
