@@ -26,7 +26,18 @@ Mental health issues are increasingly common in the tech industry, but they ofte
 - Raise awareness around mental well-being in professional environments
 
 ---
+## 🚀 Explore the Mental Health Predictor App
 
+You can interact with the full application, including the predictive quiz and exploratory dashboards, by visiting the link below:
+
+[🔗 Mental Health Predictor App](https://mental-health-predictor-app-n1lays1ngh.streamlit.app/)
+
+This app allows you to:
+- Review detailed exploratory data analysis (EDA) on the Mental Health in Tech Survey dataset
+- Understand key patterns and factors influencing treatment-seeking behavior
+- Try out a predictive model trained using CatBoost to assess mental health tendencies based on user input
+
+---
 ## 🚀 Features
 - 📊 EDA Dashboard with demographic and mental health visualizations
 - 🧠 Quiz-based Treatment Predictor using CatBoost
