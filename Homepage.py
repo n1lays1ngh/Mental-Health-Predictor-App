@@ -31,6 +31,7 @@ with st.sidebar:
     st.markdown("## 🧭 Navigation")
     st.markdown("Welcome to the Mental Health App!")
 
+
 # Title section
 st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>🧠 Mental Health Predictor App</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 20px;'>A Streamlit-powered dashboard for predicting mental health treatment needs using survey data.</p>", unsafe_allow_html=True)
@@ -71,6 +72,7 @@ with st.container():
             Explore relationships between occupation, region, mental health history, and more.
             """
         )
+        
     
     with col2:
         st.subheader("🧠 Treatment Predictor")
