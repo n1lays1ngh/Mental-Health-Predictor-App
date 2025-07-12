@@ -30,7 +30,7 @@ This made it ideal for our dataset, which consists entirely of categorical varia
 
 st.subheader(" Feature Importance Analysis",divider="red")
 
-model_path = "/Users/nilaysingh/Desktop/Mental-Health-Predictor-App/models/Mental_Health_Prediction_model2.cbm"
+model_path = "models/Mental_Health_Prediction_model2.cbm"
 
 model = load_model(model_path)
 

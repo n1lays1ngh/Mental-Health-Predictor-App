@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from utils import preprocess_input ,load_model
 
-model_path = "/Users/nilaysingh/Desktop/Mental-Health-Predictor-App/models/Mental_Health_Prediction_model2.cbm"
+model_path = "models/Mental_Health_Prediction_model2.cbm"
 
 model = load_model(model_path)
 
