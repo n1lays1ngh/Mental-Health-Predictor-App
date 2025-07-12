@@ -47,8 +47,17 @@ Mental health issues are increasingly common in the tech industry, but they ofte
 ---
 
 ## 📸 Screenshots
+### 1. Homepage 
+![Homepage ](<assets/Homepage Screenshot.png>)
 
-_Add screenshots or gifs of the EDA page, prediction quiz, and model page here._
+### 2. Dashboard 
+![Dashboard](<assets/Dashboard Screenshot.png>)
+
+### 3. Model Analysis 
+![Model Analysis ](<assets/Model Analysis Screenshot.png>)
+
+### 4. Predictor App
+![Predictor App ](<assets/Predictor App Screenshot.png>)
 
 ---
 
