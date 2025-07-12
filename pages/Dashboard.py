@@ -12,7 +12,7 @@ st.set_page_config(page_title=" Mental Health Predictor Dashboard", layout="wide
 st.markdown("<h1> Mental Health Predictor App - EDA Dashboard </h1>",unsafe_allow_html=True)
 # st.divider()
 
-original_data_path = Path("/Users/nilaysingh/Desktop/Mental-Health-Predictor-App/Data/Mental Health Dataset.csv")
+original_data_path = Path("Data/Mental Health Dataset.csv")
 original_data = load_data(original_data_path)
 
 cleaned_data_path = Path("Data/cleaned_dataset.csv")
@@ -198,7 +198,7 @@ By combining both the Chi-Square test and Cramér’s V, we can identify which f
 
 st.markdown("<br>",unsafe_allow_html=True)
 st.markdown("<h4>Table Summarizing the Chi-sq and Cramer's V Values</h4>",unsafe_allow_html=True)
-chi2_cramers_df = pd.read_csv("/Users/nilaysingh/Desktop/Mental-Health-Predictor-App/Data/chi2_cramersv_summary.csv", index_col=0)
+chi2_cramers_df = pd.read_csv("Data/chi2_cramersv_summary.csv", index_col=0)
 
 
 st.dataframe(chi2_cramers_df.style.format({
